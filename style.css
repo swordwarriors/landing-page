@@ -1,0 +1,98 @@
+body{
+    /* display: flex; */
+}
+.header{
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+}
+.header-links{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+.main{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(141, 192, 192);
+}
+#hero{
+    font-size: 48px;
+    font-weight: extra bold;
+    color: #f9faf8;
+}
+#hero-body{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    display: flex;
+    max-width: 200px;
+
+}
+.button{
+    height: 50px;
+    width: 50px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.info-image{
+    display: flex;
+    gap: 25px;
+
+}
+.sub-images{
+    display: flex;
+    flex-direction: column;
+}
+#info-tetx{
+    text-align: center;
+    background-color: blueviolet;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.test{
+    display: flex;
+    justify-content: center;
+}
+.quotes{
+    
+    
+    background-color: #e5e7eb;
+    
+}
+#quote-text{
+    
+    font-size: 36px;
+    text-align: center;
+}
+#person{
+    text-align: end;
+    font-size: 20px;
+}
+.signup{
+    background-color: #3882f6;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: #3882f6;
+    
+}
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
