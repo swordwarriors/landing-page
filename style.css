@@ -1,10 +1,14 @@
 body{
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border-radius: 25px;
 }
 .header{
     background-color: #1f2937;
     display: flex;
     color: white;
+    justify-content: space-around;
 }
 .header-links{
     display: flex;
@@ -16,12 +20,17 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     padding: 50px;
+    gap: 50px;
 }
+
 .text{
     display: flex;
     flex-direction: column;
-    background-color: rgb(141, 192, 192);
+    text-align: center;
+    align-items: center;
+
 }
 #hero{
     font-size: 48px;
@@ -33,7 +42,8 @@ body{
     font-weight: bold;
     color: #f9faf8;
     display: flex;
-    max-width: 200px;
+    max-width: 400px;
+    text-align: center;
 
 }
 .button{
@@ -43,6 +53,7 @@ body{
 .info{
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 .info-image{
     display: flex;
@@ -79,15 +90,24 @@ ul{
 #person{
     text-align: end;
     font-size: 20px;
+    margin-right: 10px;
 }
 .signup{
     background-color: #3882f6;
-    margin: 50px;
+    margin: 100px 200px;
     display: flex;
     justify-content: space-around;
+    border-radius: 25px;
 }
-button{
+.button{
     background-color: #3882f6;
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    font-size: medium;
+    border-radius: 15px;
+    border: 30px;
+    border-width: 50px;
     
 }
 .footer{
