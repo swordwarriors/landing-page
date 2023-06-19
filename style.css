@@ -63,6 +63,11 @@ body{
 .sub-images{
     display: flex;
     flex-direction: column;
+    border: #3882f6;
+}
+.sub-image img{
+    border: #3882f6 solid;
+
 }
 #info-tetx{
     text-align: center;
